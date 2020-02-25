@@ -11,6 +11,7 @@ Paralelka v úterý ve 12:20 v SW2, vede Jirka Balhar.
 2. Aktivita v hodině
     - programování na projektor (za každou aktivitu bod, bude nějaká hranice minimálního počtu bodů)
     - pokud nechcete chodit na cviko, můžeme se domluvit na zkoušce nanečisto + trochu složitější zápočťák.
+    - do ReCodexu přidám nějaké nepovinné domácí úkoly za body navíc.
 3. Zápočťák
     - v Prologu nebo v Haskellu
     - zadání přibližně v polovině semestru, takže někdy v průběhu března. Domluvte se se mnou po mailu nebo po cvičení.
@@ -39,14 +40,17 @@ K editaci souborů lze použít [Visual Studio Code](https://code.visualstudio.c
 ## Cvičení
 
 - 18.2.: organizační info, základy Prologu na vztazích - viz LPN kapitola 1, vyhodocovač logických formulí.
+- 25.2.: zopakování unifikace a hledání důkazů, Peanova aritmetika, cvičení rekurze - viz LPN kapitoly 2, 3.
 
 ## Body za aktivitu
 
-| iniciály | 18.2. |
-| -------- | ----- |
-| JP       | *     |
-| SU       | *     |
-| MV       | *     |
-| KŽ       | *     |
-| NG       | *     |
-| KN       | *     |
+| iniciály | 18.2. | 25.2. |
+| -------- | ----- | ----- |
+| JP       | *     |       |
+| SU       | *     | *     |
+| MV       | *     |       |
+| KŽ       | *     | *     |
+| NG       | *     |       |
+| KN       | *     |       |
+| DP       |       | *     |
+| SK       |       | *     |

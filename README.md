@@ -6,8 +6,7 @@ Paralelka v úterý ve 12:20 v SW2, vede Jirka Balhar.
 
 1. Domácí úkoly
     - měly by být spíš snazší, celkem 6, pro zápočet minimálně 2 z Prologu a 2 z Haskellu.
-    - zadání zde na GitHubu, řešení mailem na balhar.j@gmail.com. Do předmětu napište NEPROC.
-        - když ho zprovozním, tak možná budou na ReCodexu, pak řeknu informace na cvičení a připíšu. 
+    - zadání budou na ReCodexu, přihlaste se a přidejte se do skupiny.
 2. Aktivita v hodině
     - programování na projektor (za každou aktivitu bod, bude nějaká hranice minimálního počtu bodů)
     - pokud nechcete chodit na cviko, můžeme se domluvit na zkoušce nanečisto + trochu složitější zápočťák.

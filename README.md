@@ -40,6 +40,7 @@ K editaci souborů lze použít [Visual Studio Code](https://code.visualstudio.c
 
 - 18.2.: organizační info, základy Prologu na vztazích - viz LPN kapitola 1, vyhodocovač logických formulí.
 - 25.2.: zopakování unifikace a hledání důkazů, Peanova aritmetika, cvičení rekurze - viz LPN kapitoly 2, 3.
+- 3.3.: seznamy, akumulátor - viz LPN 4, 6.
 
 ## Body za aktivitu
 

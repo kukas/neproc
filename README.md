@@ -44,7 +44,7 @@ K editaci souborů lze použít [Visual Studio Code](https://code.visualstudio.c
 ## Body za aktivitu
 
 | iniciály | 18.2. | 25.2. | 3.3 |
-| -------- | ----- | ----- |     |
+| -------- | ----- | ----- | --- |
 | JP       | *     |       |     |
 | SU       | *     | *     |     |
 | MV       | *     |       |     |

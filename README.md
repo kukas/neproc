@@ -8,7 +8,7 @@ Paralelka v úterý ve 12:20 v SW2, vede Jirka Balhar.
     - měly by být spíš snazší, celkem 6, pro zápočet minimálně 2 z Prologu a 2 z Haskellu.
     - zadání budou na ReCodexu, přihlaste se a přidejte se do skupiny.
 2. Aktivita v hodině
-    - programování na projektor (za každou aktivitu bod, bude nějaká hranice minimálního počtu bodů)
+    - programování na projektor (za každou aktivitu bod, celkem byste měli nasbírat 5 bodů, 2 z Prologu, 2 z Haskellu)
     - pokud nechcete chodit na cviko, můžeme se domluvit na zkoušce nanečisto + trochu složitější zápočťák.
     - do ReCodexu přidám nějaké nepovinné domácí úkoly za body navíc.
 3. Zápočťák
@@ -43,13 +43,17 @@ K editaci souborů lze použít [Visual Studio Code](https://code.visualstudio.c
 
 ## Body za aktivitu
 
-| iniciály | 18.2. | 25.2. |
-| -------- | ----- | ----- |
-| JP       | *     |       |
-| SU       | *     | *     |
-| MV       | *     |       |
-| KŽ       | *     | *     |
-| NG       | *     |       |
-| KN       | *     |       |
-| DP       |       | *     |
-| SK       |       | *     |
+| iniciály | 18.2. | 25.2. | 3.3 |
+| -------- | ----- | ----- |     |
+| JP       | *     |       |     |
+| SU       | *     | *     |     |
+| MV       | *     |       |     |
+| KŽ       | *     | *     |     |
+| NG       | *     |       |     |
+| KN       | *     |       | *   |
+| PD       |       | *     | *   |
+| SK       |       | *     |     |
+| MC       |       |       | *   |
+| MP       |       |       | *   |
+| M.Bo.    |       |       | *   |
+| TGJ      |       |       | *   |

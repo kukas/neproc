@@ -46,3 +46,13 @@ otoc([X|Tx],Res) :-
 % otoc(X, Ak, OtoceneX)
 otoc([], OtoceneX, OtoceneX).
 otoc([H|T], Ak, OtoceneX) :- otoc(T, [H|Ak], OtoceneX).
+
+% byl i zajímavý dotaz, proč by to nešlo podobně s akumulátorem, ale bez speciální výstupní proměnné. Zkusme to tedy:
+otoc2([H|T], Ak) :- otoc2(T, [H|Ak]). % pravidlo, které odlepuje první prvek vstupního pole a přidá ho do akumulátoru.
+otoc2([], _). % skončíme, jakmile odlepíme všechny prvky ze vstupu
+
+% takto naimplementovaný otoč skutečně pomocí rekurze buduje otočený seznam, na dotaz `?- otoc2([1,2,3], []).` postupně volá:
+% otoc2([2,3], [1]), pak otoc2([3], [2,1]) a pak otoc2([], [3,2,1]), což lze splnit pomocí první klauzule.
+% ve výsledku nám tedy na dotaz ?- otoc2([1,2,3], []). napíše true. Takže seznam [1,2,3] lze otočit, ale z Prologu
+% nedostaneme konkrétnější odpověď. Srovnejte, že u předchozí implementace vlastně jen přidáváme výstupní proměnnou OtoceneX, abychom
+% tuto odpověď vytáhli z hlubin rekurze.

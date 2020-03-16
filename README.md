@@ -41,20 +41,29 @@ K editaci souborů lze použít [Visual Studio Code](https://code.visualstudio.c
 - 18.2.: organizační info, základy Prologu na vztazích - viz LPN kapitola 1, vyhodocovač logických formulí.
 - 25.2.: zopakování unifikace a hledání důkazů, Peanova aritmetika, cvičení rekurze - viz LPN kapitoly 2, 3.
 - 3.3.: seznamy, akumulátor - viz LPN 4, 6.
-
+- 10.3.: aritmetika, procvičování akumulátoru, operátor řezu, predikáty vyššího řádu (call)
 ## Body za aktivitu
 
-| iniciály | 18.2. | 25.2. | 3.3 |
-| -------- | ----- | ----- | --- |
-| JP       | *     |       |     |
-| SU       | *     | *     |     |
-| MV       | *     |       |     |
-| KŽ       | *     | *     |     |
-| NG       | *     |       |     |
-| KN       | *     |       | *   |
-| PD       |       | *     | *   |
-| SK       |       | *     |     |
-| MC       |       |       | *   |
-| MP       |       |       | *   |
-| M.Bo.    |       |       | *   |
-| TGJ      |       |       | *   |
+| iniciály | 18.2. | 25.2. | 3.3. | 10.3. | DÚ 1 | bonus 1 |
+| -------- | ----- | ----- | ---- | ----- | ---- | ------- |
+| LB       |       |       |      | *     | OK   | *       |
+| M.Bo.    |       |       | *    |       | OK   | *       |
+| M.Br     |       |       |      | *     | OK   |         |
+| MC       |       |       | *    | *     | OK   | *       |
+| NG       | *     |       |      |       | OK   | *       |
+| TGJ      |       |       | *    |       | OK   | *       |
+| ZK       |       |       |      |       | OK   | *       |
+| SK       |       | *     |      |       |      |         |
+| PM       |       |       | *    |       | OK   | *       |
+| VM       |       |       |      |       | OK   | *       |
+| TLN      |       |       |      |       | OK   | *       |
+| KN       | *     |       | *    | *     | OK   | *       |
+| JP       | *     |       |      | *     | OK   | **      |
+| DP       |       | *     | *    |       | OK   | *       |
+| KP       |       |       |      | *     | OK   | *       |
+| DR       |       |       |      |       | OK   | *       |
+| JŠ       |       |       |      |       | OK   | *       |
+| SU       | *     | *     |      | *     | OK   |         |
+| JU       |       |       |      |       | OK   | *       |
+| MV       | *     |       |      |       | OK   | *       |
+| KŽ       | *     | *     |      |       | OK   | *       |

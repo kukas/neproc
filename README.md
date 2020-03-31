@@ -1,6 +1,6 @@
 # Cvičení z neprocedurálního programování
 
-Paralelka v úterý ve 12:20 v SW2, vede Jirka Balhar.
+Paralelka v úterý ve 12:20 v SW2, vede Jirka Balhar, email balhar.j@gmail.com
 
 ## Požadavky na zápočet
 
@@ -43,6 +43,8 @@ K editaci souborů lze použít [Visual Studio Code](https://code.visualstudio.c
 - 3.3.: seznamy, akumulátor - viz LPN 4, 6.
 - 10.3.: aritmetika, procvičování akumulátoru, operátor řezu, predikáty vyššího řádu (call)
 - 24.3.: [zadání](./cvika/cv5_zadani.pl) - řez, rozdílové seznamy, stromy, dfs
+- 31.3.: [zadání](./cvika/cv6_zadani.pl) - nedeterminismus, dfs, bfs, procházení stavového prostoru
+
 ## Body za aktivitu
 
 | iniciály | 18.2. | 25.2. | 3.3. | 10.3. | DÚ 1 | bonus 1 | bonus 2 |

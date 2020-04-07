@@ -44,30 +44,31 @@ K editaci souborů lze použít [Visual Studio Code](https://code.visualstudio.c
 - 10.3.: aritmetika, procvičování akumulátoru, operátor řezu, predikáty vyššího řádu (call)
 - 24.3.: [zadání](./cvika/cv5_zadani.pl) - řez, rozdílové seznamy, stromy, dfs
 - 31.3.: [zadání](./cvika/cv6_zadani.pl) - nedeterminismus, dfs, bfs, procházení stavového prostoru
+- 7.4.: úvod do Haskellu, práce se seznamy a jednoduchými typy - viz LYAH kapitoly Introduction, Baby's first functions, An intro to lists, Tuples, Types and Typeclasses, Pattern matching, Guards, guards!
 
 ## Body za aktivitu
 
-| iniciály | 18.2. | 25.2. | 3.3. | 10.3. | DÚ 1 | bonus 1 | bonus 2 |
-| -------- | ----- | ----- | ---- | ----- | ---- | ------- | ------- |
-| LB       |       |       |      | *     | OK   | *       |         |
-| M.Bo.    |       |       | *    |       | OK   | *       | **      |
-| M.Br     |       |       |      | *     | OK   |         | *       |
-| MC       |       |       | *    | *     | OK   | *       | **      |
-| NG       | *     |       |      |       | OK   | *       | **      |
-| TGJ      |       |       | *    |       | OK   | *       |         |
-| ZK       |       |       |      |       | OK   | *       |         |
-| SK       |       | *     |      |       |      |         |         |
-| PM       |       |       | *    |       | OK   | *       |         |
-| VM       |       |       |      |       | OK   | *       |         |
-| TLN      |       |       |      |       | OK   | *       |         |
-| KN       | *     |       | *    | *     | OK   | *       | **      |
-| JP       | *     |       |      | *     | OK   | **      |         |
-| DP       |       | *     | *    |       | OK   | *       | **      |
-| KP       |       |       |      | *     | OK   | *       | **      |
-| DR       |       |       |      |       | OK   | *       | *       |
-| JŠ       |       |       |      |       | OK   | *       | **      |
-| SU       | *     | *     |      | *     | OK   |         |         |
-| JU       |       |       |      |       | OK   | *       | *       |
-| MV       | *     |       |      |       | OK   | *       | **      |
-| KŽ       | *     | *     |      |       | OK   | *       |         |
+| iniciály | 18.2. | 25.2. | 3.3. | 10.3. | DÚ 1 | bonus 1 | bonus 2 | DÚ 2 |
+| -------- | ----- | ----- | ---- | ----- | ---- | ------- | ------- | ---- |
+| LB       |       |       |      | *     | OK   | *       |         | 1/2  |
+| M.Bo.    |       |       | *    |       | OK   | *       | **      | OK   |
+| M.Br     |       |       |      | *     | OK   |         | *       | 1/2  |
+| MC       |       |       | *    | *     | OK   | *       | **      | OK   |
+| NG       | *     |       |      |       | OK   | *       | **      | OK   |
+| TGJ      |       |       | *    |       | OK   | *       |         |      |
+| ZK       |       |       |      |       | OK   | *       |         |      |
+| SK       |       | *     |      |       |      |         |         | OK   |
+| PM       |       |       | *    |       | OK   | *       |         |      |
+| VM       |       |       |      |       | OK   | *       |         |      |
+| TLN      |       |       |      |       | OK   | *       |         | OK   |
+| KN       | *     |       | *    | *     | OK   | *       | **      | OK   |
+| JP       | *     |       |      | *     | OK   | **      |         |      |
+| DP       |       | *     | *    |       | OK   | *       | **      | OK   |
+| KP       |       |       |      | *     | OK   | *       | **      | OK   |
+| DR       |       |       |      |       | OK   | *       | *       |      |
+| JŠ       |       |       |      |       | OK   | *       | **      | 1/2  |
+| SU       | *     | *     |      | *     | OK   |         |         |      |
+| JU       |       |       |      |       | OK   | *       | *       |      |
+| MV       | *     |       |      |       | OK   | *       | **      | OK   |
+| KŽ       | *     | *     |      |       | OK   | *       |         |      |
 

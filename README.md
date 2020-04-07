@@ -51,7 +51,7 @@ K editaci souborů lze použít [Visual Studio Code](https://code.visualstudio.c
 
 | iniciály | 18.2. | 25.2. | 3.3. | 10.3. | DÚ 1 | bonus 1 | bonus 2 | DÚ 2 | **PROLOG** |
 | -------- | ----- | ----- | ---- | ----- | ---- | ------- | ------- | ---- | ---------- |
-| LB       |       |       |      | *     | OK   | *       |         | 1/2  |            |
+| LB       |       |       |      | *     | OK   | *       |         | OK   | **hotovo** |
 | M.Bo.    |       |       | *    |       | OK   | *       | **      | OK   | **hotovo** |
 | M.Br     |       |       |      | *     | OK   |         | *       | 1/2  |            |
 | MC       |       |       | *    | *     | OK   | *       | **      | OK   | **hotovo** |

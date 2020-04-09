@@ -56,7 +56,7 @@ K editaci souborů lze použít [Visual Studio Code](https://code.visualstudio.c
 | M.Br     |       |       |      | *     | OK   |         | *       | 1/2  |            |
 | MC       |       |       | *    | *     | OK   | *       | **      | OK   | **hotovo** |
 | NG       | *     |       |      |       | OK   | *       | **      | OK   | **hotovo** |
-| TGJ      |       |       | *    |       | OK   | *       |         |      |            |
+| TGJ      |       |       | *    |       | OK   | *       |         | OK   | **hotovo** |
 | ZK       |       |       |      |       | OK   | *       |         |      |            |
 | SK       |       | *     |      |       |      |         |         | OK   |            |
 | PM       |       |       | *    |       | OK   | *       |         |      |            |

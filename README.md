@@ -45,7 +45,7 @@ K editaci souborů lze použít [Visual Studio Code](https://code.visualstudio.c
 - 24.3.: [zadání](./cvika/cv5_zadani.pl) - řez, rozdílové seznamy, stromy, dfs
 - 31.3.: [zadání](./cvika/cv6_zadani.pl) - nedeterminismus, dfs, bfs, procházení stavového prostoru
 - 7.4.: úvod do Haskellu, práce se seznamy a jednoduchými typy - viz LYAH kapitoly Introduction, Baby's first functions, An intro to lists, Tuples, Types and Typeclasses, Pattern matching, Guards, guards!
-- 14.4.: [zadání](./cvika/cv8_zadani.pl) - procvičování rekurze a funkcí vyššího řádu, rozsahy a nekonečné seznamy. Viz LYAH Texas ranges, Recursion, Higher Order Functions
+- 14.4.: [zadání](./cvika/cv8_zadani.pl) - procvičování rekurze a funkcí vyššího řádu, rozsahy a nekonečné seznamy. Viz LYAH Texas ranges, Recursion, Higher Order Functions. [Informace k debuggingu](https://downloads.haskell.org/~ghc/7.6.3/docs/html/users_guide/ghci-debugger.html)
 
 ## Body za aktivitu
 

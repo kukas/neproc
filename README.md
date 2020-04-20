@@ -64,7 +64,7 @@ K editaci souborů lze použít [Visual Studio Code](https://code.visualstudio.c
 | VM       |       |       |      |       | OK   | *       |         |      |            |       |
 | TLN      |       |       |      |       | OK   | *       |         | OK   |            |       |
 | KN       | *     |       | *    | *     | OK   | *       | **      | OK   | **hotovo** | *     |
-| JP       | *     |       |      | *     | OK   | **      |         |      |            |       |
+| JP       | *     |       |      | *     | OK   | **      |         | OK   | **hotovo** |       |
 | DP       |       | *     | *    |       | OK   | *       | **      | OK   | **hotovo** |       |
 | KP       |       |       |      | *     | OK   | *       | **      | OK   | **hotovo** |       |
 | DR       |       |       |      |       | OK   | *       | *       |      |            |       |

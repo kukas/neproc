@@ -47,32 +47,33 @@ K editaci souborů lze použít [Visual Studio Code](https://code.visualstudio.c
 - 7.4.: úvod do Haskellu, práce se seznamy a jednoduchými typy - viz LYAH kapitoly Introduction, Baby's first functions, An intro to lists, Tuples, Types and Typeclasses, Pattern matching, Guards, guards!
 - 14.4.: [zadání](./cvika/cv8_zadani.hs) - procvičování rekurze a funkcí vyššího řádu, rozsahy a nekonečné seznamy. Viz LYAH Texas ranges, Recursion, Higher Order Functions. [Informace k debuggingu](https://downloads.haskell.org/~ghc/7.6.3/docs/html/users_guide/ghci-debugger.html)
 - 21.4.: [zadání](./cvika/cv9_zadani.hs) - list comprehensions, nekonečné seznamy, vlastní typy. Viz LYAH Making Our Own Types and Typeclasses podkapitoly až po Recursive data structures.
+- 28.4.: [zadání](./cvika/cv10_zadani.hs) - $, ., vlastní typy dokončení, stromy. Viz LYAH Making Our Own Types and Typeclasses podkapitoly až po Recursive data structures.
+- 5.5.: [zadání](./cvika/cv11_zadani.hs) - typeclasses. Viz LYAH Making Our Own Types and Typeclasses: Typeclasses 102, A yes-no typeclass, The Functor typeclass, Kinds and some type-foo
 
 ## Body za aktivitu
 
-
-| iniciály | 18.2. | 25.2. | 3.3. | 10.3. | DÚ 1 | bonus 1 | bonus 2 | DÚ 2 | DÚ 3 | **PROLOG** | 14.4. | bonus 1 | 21.4. |
-| -------- | ----- | ----- | ---- | ----- | ---- | ------- | ------- | ---- | ---- | ---------- | ----- | ------- | ----- |
-| LB       |       |       |      | *     | OK   | *       |         | OK   | OK   | **hotovo** |       | *       |       |
-| M.Bo.    |       |       | *    |       | OK   | *       | **      | OK   |      | **hotovo** |       | *       |       |
-| M.Br     |       |       |      | *     | OK   |         | *       | 1/2  |      |            |       | *       |       |
-| MC       |       |       | *    | *     | OK   | *       | **      | OK   | OK   | **hotovo** |       |         | **    |
-| NG       | *     |       |      |       | OK   | *       | **      | OK   |      | **hotovo** | *     | *       | **    |
-| TGJ      |       |       | *    |       | OK   | *       |         | OK   |      | **hotovo** |       |         |       |
-| ZK       |       |       |      |       | OK   | *       |         |      | OK*  | **hotovo** |       | *       | *     |
-| SK       |       | *     |      |       |      |         |         |      |      |            |       |         |       |
-| PM       |       |       | *    |       | OK   | *       |         | OK   | OK   | **hotovo** |       |         |       |
-| VM       |       |       |      |       | OK   | *       |         |      |      |            |       |         |       |
-| TLN      |       |       |      |       | OK   | *       |         | OK   | OK*  | **hotovo** |       |         |       |
-| KN       | *     |       | *    | *     | OK   | *       | **      | OK   |      | **hotovo** | *     | *       |       |
-| JP       | *     |       |      | *     | OK   | **      |         | OK   |      | **hotovo** |       |         | **    |
-| DP       |       | *     | *    |       | OK   | *       | **      | OK   |      | **hotovo** |       | *       | *     |
-| KP       |       |       |      | *     | OK   | *       | **      | OK   | OK   | **hotovo** |       | *       | *     |
-| DR       |       |       |      |       | OK   | *       | *       |      |      |            |       |         |       |
-| JŠ       |       |       |      |       | OK   | *       | **      | OK   |      | **hotovo** |       | *       |       |
-| SU       | *     | *     |      | *     | OK   |         |         |      | OK   | **hotovo** |       |         |       |
-| JU       |       |       |      |       | OK   | *       | *       |      | OK*  | **hotovo** |       |         |       |
-| MV       | *     |       |      |       | OK   | *       | **      | OK   | OK   | **hotovo** |       |         |       |
-| KŽ       | *     | *     |      |       | OK   | *       |         |      |      |            |       | *       |       |
+| iniciály | 18.2. | 25.2. | 3.3. | 10.3. | DÚ 1 | bonus 1 | bonus 2 | DÚ 2 | DÚ 3 | **PROLOG** | 14.4. | bonus 1 | 21.4. | 28.4. | 5.5.  |
+| -------- | ----- | ----- | ---- | ----- | ---- | ------- | ------- | ---- | ---- | ---------- | ----- | ------- | ----- | ----- | ----- |
+| LB       |       |       |      | *     | OK   | *       |         | OK   | OK   | **hotovo** |       | *       |       |       |       |
+| M.Bo.    |       |       | *    |       | OK   | *       | **      | OK   |      | **hotovo** |       | *       |       |       |       |
+| M.Br     |       |       |      | *     | OK   |         | *       | 1/2  |      |            |       | *       |       |       |       |
+| MC       |       |       | *    | *     | OK   | *       | **      | OK   | OK   | **hotovo** |       |         | **    |       |       |
+| NG       | *     |       |      |       | OK   | *       | **      | OK   |      | **hotovo** | *     | *       | **    | *     | *     |
+| TGJ      |       |       | *    |       | OK   | *       |         | OK   |      | **hotovo** |       |         |       |       |       |
+| ZK       |       |       |      |       | OK   | *       |         |      | OK*  | **hotovo** |       | *       | *     |       |       |
+| SK       |       | *     |      |       |      |         |         |      |      |            |       |         |       |       |       |
+| PM       |       |       | *    |       | OK   | *       |         | OK   | OK   | **hotovo** |       |         |       |       |       |
+| VM       |       |       |      |       | OK   | *       |         |      |      |            |       |         |       |       |       |
+| TLN      |       |       |      |       | OK   | *       |         | OK   | OK*  | **hotovo** |       |         |       |       |       |
+| KN       | *     |       | *    | *     | OK   | *       | **      | OK   |      | **hotovo** | *     | *       |       | *     |       |
+| JP       | *     |       |      | *     | OK   | **      |         | OK   |      | **hotovo** |       |         | **    | *     | *     |
+| DP       |       | *     | *    |       | OK   | *       | **      | OK   |      | **hotovo** |       | *       | *     |       |       |
+| KP       |       |       |      | *     | OK   | *       | **      | OK   | OK   | **hotovo** |       | *       | *     | **    | **    |
+| DR       |       |       |      |       | OK   | *       | *       |      |      |            |       |         |       |       |       |
+| JŠ       |       |       |      |       | OK   | *       | **      | OK   |      | **hotovo** |       | *       |       |       |       |
+| SU       | *     | *     |      | *     | OK   |         |         |      | OK   | **hotovo** |       |         |       | **    |       |
+| JU       |       |       |      |       | OK   | *       | *       |      | OK*  | **hotovo** |       |         |       |       |       |
+| MV       | *     |       |      |       | OK   | *       | **      | OK   | OK   | **hotovo** |       |         |       |       |       |
+| KŽ       | *     | *     |      |       | OK   | *       |         |      |      |            |       | *       |       |       |       |
 
 

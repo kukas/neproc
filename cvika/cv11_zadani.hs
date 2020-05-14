@@ -9,7 +9,7 @@ kolik y = foldr (\x c -> c + (if x == y then 1 else 0)) 0
 -- když se podíváme na výstup :info Int, zjistíme, že Int má instanci typové třídy Eq, tudíž lze použít ve funkci kolik
 
 -- také jsme se setkali s deriving, třeba:
-data Pozdrav = Ahoj | Cus deriving (Show)
+data Pozdrav = Ahoj | Cus deriving (Show, Eq)
 
 -- definice třídy Eq v prelude:
 -- class Eq a where  
@@ -19,7 +19,7 @@ data Pozdrav = Ahoj | Cus deriving (Show)
 --     x /= y = not (x == y)  
 
 -- nějaký nový typ, který budeme definovat jako instanci Eq
-data TrafficLight = Red | Yellow | Green
+data TrafficLight = Red | Yellow | Green | Libovolny Int
 
 instance Eq TrafficLight where  
     Red == Red = True  
@@ -35,11 +35,18 @@ instance Eq TrafficLight where
 
 -- TODO: Zkuste naprogramovat instanci typu TrafficLight pro typovou třídu Show. Je potřeba pouze
 --       nadefinovat funkci show :: TrafficLight -> String
+instance Show TrafficLight where  
+    show Red = "Cervena"
+    show Green = "Zelena"
+    show Yellow = "Zluta"
+    show (Libovolny x) = "Lib " ++ (show x)
+
+emptytree :: Tree a -> Bool
+emptytree EmptyTree = True
+emptytree _ = False
 
 -- instance typových konstruktorů
-data Tree a = EmptyTree | Node a (Tree a) (Tree a)
-data Mozna a = Proste a | Nic -- překlad typu Maybe, se kterým se ještě setkáme
--- 
+data Tree a = EmptyTree | Node a (Tree a) (Tree a) deriving (Show)
 
 -- ? proč nedává smysl definovat ?:
 -- instance Eq Mozna where  
@@ -47,7 +54,6 @@ data Mozna a = Proste a | Nic -- překlad typu Maybe, se kterým se ještě setk
 -- případně:
 -- instance Eq Tree where  
 --      ...
-
 
 -- a co nám chybí zde?:
 -- instance Eq (Mozna m) where  
@@ -60,8 +66,28 @@ instance (Eq m) => Eq (Mozna m) where
     Nic == Nic = True  
     _ == _ = False  
 
+hloubka :: Tree a -> Int
+hloubka EmptyTree = 0
+hloubka (Node _ l p) = max (hloubka l) (hloubka p) + 1
+
+-- (Node 1 (Node 0 EmptyTree EmptyTree) EmptyTree) == (Node 1 EmptyTree EmptyTree)
+
 -- TODO a: naprogramujte instanci typu Tree pro třídu Eq, stromy se budou porovnávat podle struktury a podle hodnoty vrcholů
+instance (Eq a) => Eq (Tree a) where
+    (==) EmptyTree EmptyTree = True
+    (==) (Node v1 l p) (Node v2 l2 p2) = v1 == v2 && l == l2 && p == p2
+    (==) _ _ = False
+
 -- TODO b: naprogramujte instanci typu Tree pro třídu Eq, stromy se budou porovnávat jen podle struktury
+-- instance (Eq m) => Eq (Tree m) where
+--     EmptyTree == EmptyTree = True
+--     (Node _ l p) == (Node _ a b) = (l == a) && (p == b)
+--     _ == _ = False
+
+-- instance Eq Bool where
+--     True == True = True
+--     False == False = True
+--     _ == _ = False
 
 -- typová třída emulující truthy/falsy hodnoty
 class YesNo a where
@@ -69,15 +95,34 @@ class YesNo a where
 
 -- instance typu Int typové třídy YesNo
 instance YesNo Int where
-    yesno 0 = False  
+    yesno 0 = False
     yesno _ = True
 
--- TODO: Doplňte instance pro typy Bool, Tree, [a]
+-- Vysvětlení proč nelze zadefinovat následující instanci:
+-- https://stackoverflow.com/questions/27566373/exception-for-the-instance-num-a-yesno-a-where-code-row
+-- instance (Num a) => YesNo a where
+--     yesno x | x == fromIntegral 0 = False
+--             | otherwise = True
 
--- typová třída Funktor
+-- TODO: Doplňte instance pro typy Bool, Tree, [a]
+instance YesNo Bool where
+    yesno = id
+
+instance YesNo (Tree a) where
+    yesno EmptyTree = False  
+    yesno _ = True
+
+instance YesNo [a] where
+    yesno [] = False  
+    yesno _ = True
+
+
+-- typová třída Functor
 -- pro typy, na které můžeme použít map. Tedy kontejnery (třeba seznam)
 -- class Functor f where  
 --     fmap :: (a -> b) -> f a -> f b  
+
+data Mozna a = Proste a | Nic deriving (Show) -- překlad typu Maybe, se kterým se ještě setkáme
 
 -- takto vypadá instance pro pole, všimněte si typového konstruktoru pole, ještě jsme se s ním nesetkali:
 -- instance Functor [] where  
@@ -86,6 +131,14 @@ instance YesNo Int where
 -- TODO: Napište instanci Funktoru pro typové konstruktory Mozna a Tree
 -- příklad: > fmap negate (Proste 3)
 -- Proste (-3)
+
+instance Functor Mozna where
+    fmap f Nic = Nic
+    fmap f (Proste x) = Proste (f x)
+
+instance Functor Tree where
+    fmap f EmptyTree = EmptyTree
+    fmap f (Node v l p) = Node (f v) (fmap f l) (fmap f p)
 
 -- Co kdybychom měli typ definovaný:
 -- data Either a b = Left a | Right b

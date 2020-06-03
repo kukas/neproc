@@ -17,6 +17,8 @@ Paralelka v úterý ve 12:20 v SW2, vede Jirka Balhar, email balhar.j@gmail.com
     - pro inspiraci na téma zápočťáku je seznam zadání na stránkách [Jana Hrice](http://kti.mff.cuni.cz/~hric/vyuka/pl_prikl_win.pdf) nebo [Tomáše Dvořáka](https://ksvi.mff.cuni.cz/~dvorak/vyuka/14/NPRG005x01/programy.html).
     - s programem je potřeba odevzdat i dokumentaci a testovací data spolu s příkazy/dotazy pro spuštění.
     - **pár slov k dokumentaci**: dokumentaci můžete koncipovat jako rozumně dlouhé githubovské README, kde uvedete specifikaci zápočťáku, pár slov o tématu, použití (jak spustit), příklad použití, popis implementace, credits (pokud jste použili něco cizího).
+        - pokud chcete, pište v angličtině
+        - klidně to na ten github hoďte! Třeba se to bude hodit někomu dalšímu :-)
     - ~~na zkoušku je potřeba zápočet!~~, nejlepší je tedy mít zápočet už na konci května.
 
 ## Materiály
